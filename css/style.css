@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    margin: 0 auto;
+    width: 100%;
+    height: 32px;
+    background-color: white;
+    box-shadow: 0px 0px 3px blue;
+    padding: 6px 0;
+    position: relative;
+    position: fixed;
+}
+.navbar{
+    display: flex;
+    right: 10px;
+}
+.navbar a {
+    list-style-type:none;
+    text-decoration: none;
+    font-size: 20px;
+}
+#navbar_list{
+    margin-left: 150px;
+}
+.navbar_list{
+    margin-left: 60px;
+    margin-top: 4px;
+    
+}
+.navbar .navbar_link{
+    margin-left: 60px;
+    margin-right: 40px;
+    background-color: #ff7200;
+    padding: 5px;
+    border-radius: 6px;
+    border: none;
+    color: white;
+}
+.navbar .navbar_logo{
+    list-style-type:none;
+    text-decoration: none;
+    font-size: 25px;
+    color: #ff7200;
+    margin-left: 60px;
+    font-family: sans-serif;
+}
+
+.navbar a:hover{
+    font-size: 21px;
+    transition: all ease 0.3s;
+    color: #ff7200;
+}
+.box1{
+    width: 50%;
+    margin-top: 60px;
+    float: left;
+    margin-bottom: 60px;
+}
+.box2{
+    float: left;
+    margin-bottom: 60px;
+    margin-top: 60px;
+}
+.box2 img{
+    width: 600px;
+    margin-left: 20px;
+    margin-top: 40px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 8px #ff7200;
+}
+.hacker__title{
+    margin-top: 40px;
+    text-align:center;
+    font-size: 30px;
+    color: #201e1c;
+}
+.hacker__text{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 22px;
+    margin-left: 20px;
+}
+.hacker__btn{
+    display: inline-block;
+    text-align: center;
+    width: 200px;
+    height: 30px;
+    box-shadow: 0px 0px 5px #ff7200;
+    margin-left: 350px;
+    font-size: 25px;
+    border-radius: 8px;
+    color: #ff7200;
+    margin-top: 20px;
+
+}
